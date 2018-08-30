@@ -1,6 +1,6 @@
-#My Website
+# My Website
 
-###Beginning of description
+### Beginning of description
 
 Hello! My name is Flaviano Christian Reyes, and I'd like to introduce you to my updated website.
 This website is hosted on Firebase, and it functions like a single-page React application.
@@ -9,7 +9,7 @@ Redux with Thunk middleware is used to manage state. React-router-transition is 
 This website is still a work in progress as it has more pages to be developed, but it serves its main purpose.
 Thank you for reading!
 
-###End of description. Below is the default README description for Create React App
+### End of description. Below is the default README description for Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
