@@ -1,0 +1,224 @@
+.resumepage {
+  overflow: hidden;
+  max-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.titleRes {
+  margin-left: 64px;
+  font-size: 12vmin;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+}
+
+.subtitleRes {
+  margin-left: 64px;
+  font-size: 4vmin;
+  font-family: 'Chivo', sans-serif;
+}
+
+.text {
+  margin-left: 64px;
+  font-size: 2vmin;
+  font-family: 'Overpass', sans-serif;
+}
+
+.left {
+  max-height: 100vh;
+  padding-right: 32px;
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-right: 6px solid white;
+  background-color: rgba(0, 153,255, 1);
+}
+
+.right {
+  max-height: 100vh;
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.smileResume {
+  border-top: 6px solid white;
+  border-bottom: 3px solid white;
+  width: 50vw;
+  height: auto;
+}
+
+.beaconResume {
+  width: 50vw;
+  height: auto;
+}
+
+.buttonsRes {
+  margin-left: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+.buttonRes {
+  transition: background-color 0.2s;
+  transition: color 0.2s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Overpass', sans-serif;
+  width: 7vw;
+  height: 4vh;
+  font-size: 2vmin;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.buttonRes:nth-child(1) {
+  border-right: 0px
+}
+
+.buttonRes:last-child {
+  border-left: 0px;
+}
+
+.buttonRes:hover {
+  color: rgba(0, 153,255, 1);
+  background-color: white;
+}
+
+.hide {
+  visibility: collapse;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.grow {
+  width: 100vw;
+}
+
+.show {
+  border-radius: 100px;
+  border: 4px solid white;
+  margin-left: 64px;
+  width: 12vh;
+  height: 12vh;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (orientation: portrait) {
+  .resumepage {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beaconResume {
+    width: auto;
+    height: 50vh;
+  }
+
+  .buttonRes {
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    width: 15vw;
+    height: 4vh;
+    font-size: 3vmin;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-aspect-ratio: 3/2) {
+  .resumepage {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beaconResume {
+    width: auto;
+    height: 50vh;
+  }
+
+  .buttonRes {
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    width: 10vw;
+    height: 4vh;
+    font-size: 2vmin;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .resumepage {
+    margin: 0 auto;
+  }
+
+  .buttonRes {
+    width: 10vw;
+    font-size: 2vmin;
+  }
+
+  .text {
+    font-size: 2vmin;
+  }
+
+  .left {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .resumepage {
+    margin: 0 auto;
+  }
+
+  .buttonRes {
+    width: 15vw;
+    font-size: 3vmin;
+  }
+
+  .text {
+    font-size: 3vmin;
+  }
+
+  .left {
+    width: 100vw;
+  }
+}
