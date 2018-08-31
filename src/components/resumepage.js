@@ -74,7 +74,7 @@ class ResumePage extends Component {
             </div>
             <div className="buttonsRes">
               <Link className="buttonRes" to="/">Home</Link>
-              <Link className="buttonRes" to="/resume">TBD</Link>
+              <Link className="buttonRes" to="/articles">Articles</Link>
               <Link className="buttonRes" to="/resume">TBD</Link>
             </div>
           </div>
